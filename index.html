@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HOSSIEN</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #000428, #004e92);
+      color: white;
+      text-align: center;
+      min-height: 100vh;
+    }
+
+    h1 {
+      padding-top: 50px;
+      font-size: 3em;
+    }
+
+    .music-container {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .track {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 12px;
+      width: 90%;
+      max-width: 400px;
+    }
+
+    .track img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    audio {
+      width: 100%;
+      outline: none;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1> Music🎵</h1>
+
+  <div class="music-container">
+    <div class="track">
+      <img src="image1.jpg" >
+      <h3>ki Midoone Delam</h3>
+      <audio controls>
+        <source src="Farhad Jahangiri - Ki Midoone Delam (Remix).mp3" type="audio/mp3" />
+       
+      </audio>
+    </div>
+
+    <div class="track">
+      <img src="image2.jpg">
+      <h3>Mano Abam Kard (Ai)</h3>
+      <audio controls>
+        <source src="Mano Abam Kard (Ai).mp3" type="audio/mp3" />
+
+      </audio>
+    </div>
+  </div>
+</body>
+</html>
